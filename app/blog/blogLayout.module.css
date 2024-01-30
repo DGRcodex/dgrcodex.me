@@ -1,0 +1,32 @@
+/* blogLayout.module.css */
+.blogLayout {
+    background-color: #feedbf;
+    /* Amarillo pastel como color de fondo */
+}
+
+.blogHeader,
+.blogNav,
+.blogMain {
+    /* Aplicar estilos específicos aquí */
+}
+
+/* Colores de la paleta */
+.color1 {
+    color: #259b9b;
+}
+
+.color2 {
+    color: #6fbcaa;
+}
+
+.color3 {
+    color: #b8d6b0;
+}
+
+.color4 {
+    color: #feedbf;
+}
+
+.color5 {
+    color: #ff1964;
+}
