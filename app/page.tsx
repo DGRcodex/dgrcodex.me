@@ -8,9 +8,9 @@ export default function Home() {
         <title>Portafolio | Daniel Garcia Rojas</title>
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gradient-to-b from-sky-200 to-blue-200 dark:from-sky-900 dark:to-[#0141ff]">
-        <div className="container mx-auto"> {/* Contenedor para centrar los elementos */}
-          <div className="flex flex-col md:flex-row items-center gap-10"> {/* Disposición del contenido */}
-            {/* Columna 1: Imagen personal */}
+        <div className="container mx-auto"> 
+          <div className="flex flex-col md:flex-row items-center gap-10"> 
+            
             <div className="w-full md:w-1/3">
               <Image
                 src="/yosinfondo.png" // Reemplaza con la ruta de tu imagen
@@ -22,7 +22,7 @@ export default function Home() {
               />
             </div>
 
-            {/* Columna 2: Texto */}
+       
             <div className="w-full md:w-2/3 text-black dark:text-gray-100">
               <h1 className="text-4xl font-bold">ABOUT ME</h1>
               <p className="text-base text-justify">
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Logos al final de la página (opcional) */}
+         
           <div className="flex place-items-center gap-4 p-4 mt-10">
             <Image
               src="/dgrcodex4.png"
