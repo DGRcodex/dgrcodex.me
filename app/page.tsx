@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Head from "next/head";
 
+
+
 export default function Home() {
   return (
     <>
@@ -26,15 +28,16 @@ export default function Home() {
             <div className="w-full md:w-2/3 text-black dark:text-gray-100">
               <h1 className="text-4xl font-bold">ABOUT ME</h1>
               <p className="text-base text-justify">
-                I've had a dynamic career journey spanning almost a decade. Initially immersed in cultural management and production, I made a pivotal decision in 2020 to transition into web development, leveraging my prior experience with WordPress and my innate fascination with technology and product development.
-
-                Since then, I've been deeply involved in various projects, from co-founding Sambalab in 2021 to contributing as a backend developer at Devsafio, where I specialized in data architecture and user model development using technologies like JavaScript, Express, Sequelize, Docker, and MySQL.
-
-                My current role involves leading a talented team in crafting a cutting-edge cultural platform with Next.js, where we prioritize innovation and responsiveness to the evolving needs of our audience and contemporary artists.
-
-                My technical proficiency encompasses a range of programming languages, frameworks, libraries, and tools, including Ruby, TypeScript, React, Node.js, Docker, PostgreSQL, and more. Alongside my professional endeavors, I've pursued education in diverse fields, from digital startups to music composition and legal studies.
-
-                Continuously seeking growth, I'm currently expanding my skill set through courses in data analysis and Python programming. Fluent in Spanish and proficient in English, I thrive on challenges and am passionate about pushing the boundaries of what's possible in the digital realm.
+                I&apos;ve had a dynamic career journey spanning almost a decade. Initially immersed in cultural management and production, I made a pivotal decision in 2020 to transition into web development, leveraging my prior experience with WordPress and my innate fascination with technology and product development.{'\n'}
+                
+                Since then, I&apos;ve been deeply involved in various projects, from co-founding Sambalab in 2021 to contributing as a backend developer at Devsafio, where I specialized in data architecture and user model development using technologies like JavaScript, Express, Sequelize, Docker, and MySQL.{'\n'}
+                 
+                My current role involves leading a talented team in crafting a cutting-edge cultural platform with Next.js, where we prioritize innovation and responsiveness to the evolving needs of our audience and contemporary artists.{'\n'}
+                 
+                My technical proficiency encompasses a range of programming languages, frameworks, libraries, and tools, including Ruby, TypeScript, React, Node.js, Docker, PostgreSQL, and more. Alongside my professional endeavors, I&apos;ve pursued education in diverse fields, from digital startups to music composition and legal studies.{'\n'}
+           
+                Continuously seeking growth, I&apos;m currently expanding my skill set through courses in data analysis and Python programming. Fluent in Spanish and proficient in English, I thrive on challenges and am passionate about pushing the boundaries of what&apos;s possible in the digital realm.
+               
               </p>
             </div>
           </div>
