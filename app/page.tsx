@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
-
+import Tools from "./components/Tools";
+import React from "react";
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
               />
             </div>
 
+           
        
             <div className="w-full md:w-2/3 text-black dark:text-gray-100">
               <h1 className="text-4xl font-bold">ABOUT ME</h1>
@@ -41,6 +43,11 @@ export default function Home() {
               </p>
             </div>
           </div>
+
+          <div className="mt-10"> {/* Crea una nueva sección */}
+            <h2 className="text-2xl font-bold">Skills and Tools</h2>
+         <Tools></Tools>
+          </div> 
 
          
           <div className="flex place-items-center gap-4 p-4 mt-10">
