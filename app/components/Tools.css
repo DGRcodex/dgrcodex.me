@@ -15,3 +15,9 @@
     /* Ancho deseado para cada icono */
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .tool-item {
+        width: 25%;
+    }
+}
