@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './Tools.css'; 
+import Image from 'next/image'
 
 const Tools: React.FC = () => {
     const tech = [
@@ -40,7 +41,7 @@ const Tools: React.FC = () => {
             <div className="tools-container">
                 {tech.map((tool, index) => (
                     <div key={index} className="tool-item">
-                        <img src={tool.icon} alt={`${tool.name} Icon`} width={50} height={50} />
+                        <Image src={tool.icon} alt={`${tool.name} Icon`} width={50} height={50} />
                         {tool.name}
                     </div>
                 ))}

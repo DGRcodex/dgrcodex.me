@@ -29,7 +29,7 @@ export default function Home() {
 
 
           <div className="mt-10">
-            <h2 className="text-2xl font-bold"><br></br></h2> 
+            <h2 className="text-2xl font-bold"></h2> 
             <ContactMe />
           </div> 
 
