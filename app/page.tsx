@@ -4,7 +4,7 @@ import Tools from "./components/Tools";
 import React from "react";
 import AboutMe from "./components/Aboutme";
 import ContactMe from "./components/Contactme"
-import PersonalData from "./components/Personaldata";
+import PersonalData from "./components/PersonalData";
 
 
 export default function Home() {
