@@ -3,6 +3,7 @@ import Head from "next/head";
 import Tools from "./components/Tools";
 import React from "react";
 import AboutMe from "./components/Aboutme";
+import ContactMe from "./components/Contactme"
 
 
 export default function Home() {
@@ -24,6 +25,12 @@ export default function Home() {
           <div className="mt-10"> {/* Crea una nueva sección */}
             <h2 className="text-2xl font-bold">Skills and Tools</h2>
          <Tools></Tools>
+          </div> 
+
+
+          <div className="mt-10">
+            <h2 className="text-2xl font-bold"><br></br></h2> 
+            <ContactMe />
           </div> 
 
          
