@@ -4,6 +4,7 @@ import Tools from "./components/Tools";
 import React from "react";
 import AboutMe from "./components/Aboutme";
 import ContactMe from "./components/Contactme"
+import PersonalData from "./components/Personaldata";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <div className="container mx-auto"> 
           <div className="flex flex-col md:flex-row items-center gap-10"> 
             <div className="container mx-auto">
+              <PersonalData />
               <AboutMe />
               {/* Otras partes de tu página */}
             </div>
