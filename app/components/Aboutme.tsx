@@ -9,15 +9,15 @@ const AboutMe: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="w-full md:w-1/3">
                 <Image
-                    src="/yosinfondo.png" // Reemplaza con la ruta de tu imagen
+                    src="/yosinfondo.png" 
                     alt="Tu imagen personal"
-                    width={300} //    Ajus sta el ancho según prefieras
-                    height={300} // Ajusta la altura según prefieras
-                    layout="responsive" // La imagen se adapta al tamaño disponible
+                    width={300} //    
+                    height={300} // 
+                    layout="responsive" 
                     priority
                 />
             </div>
-            <div className="w-full md:w-2/3 text-black dark:text-gray-100">
+            <div className="w-full md:w-full sm:w-full text-black dark:text-gray-100">
                 <h1 className="text-4xl font-bold">ABOUT ME</h1>
                 <p className="text-base text-justify. sm:w-full sm:mx-auto sm:px-2">
                     I&apos;ve had a dynamic career journey spanning almost a decade. Initially immersed in cultural management and production, I made a pivotal decision in 2020 to transition into web development, leveraging my prior experience with WordPress and my innate fascination with technology and product development.<br /><br />

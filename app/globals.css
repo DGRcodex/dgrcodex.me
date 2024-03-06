@@ -27,27 +27,7 @@ body {
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
-/* Ancho del cuerpo en pantallas pequeñas */
-@media screen and (max-width: 640px) {
-  .sm\:w-90 {
-    width: 90%;
+  .sm\:w-full {
+    width: 100%;
+    /* Estás usando la clase de Tailwind correctamente */
   }
-
-  .sm\:mx-auto {
-    margin-left: 10px;
-    margin-right: auto;
-  }
-
-     .sm\:p-4 {
-       padding: 1px;
-       /* Utiliza la clase p-4 de Tailwind */
-     }
-     }
-
-
-/* Reglas de utilidad adicionales */
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}

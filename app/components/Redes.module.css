@@ -1,0 +1,13 @@
+.redes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.redes-link {
+    margin-right: 1rem;
+}
+
+.redes-link:last-child {
+    margin-right: 0;
+}

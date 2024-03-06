@@ -1,0 +1,42 @@
+/* PersonalData.module.css */
+.container {
+    /* Estilos para el contenedor */
+}
+
+.title {
+    /* Estilos para el título */
+}
+
+.subtitle {
+    /* Estilos para el subtítulo */
+}
+
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.moveRight {
+    animation: moveRight 3s ease-out;
+}
+
+
+@keyframes moveLefth {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+.moveLefth {
+    animation: moveLefth 3s ease-out;
+}
