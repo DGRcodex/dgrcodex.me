@@ -1,0 +1,22 @@
+/* Aboutme.module.css */
+.typedText {
+    white-space: pre-line;
+    /* Permite que el texto se escriba en varias líneas */
+    overflow: hidden;
+    /* Oculta el texto que está fuera del área del contenedor */
+    border-right: 0em solid rgb(138, 183, 252);
+    /* Crea el efecto de cursor */
+    animation: typing 3s steps(60, end);
+    /* Define la animación de escritura */
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
