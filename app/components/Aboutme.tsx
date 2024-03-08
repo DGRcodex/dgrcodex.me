@@ -18,7 +18,7 @@ const AboutMe: React.FC = () => {
             } else {
                 clearInterval(typingEffect);
             }
-        }, 10); // Velocidad de escritura, puedes ajustar este valor para cambiar la velocidad
+        }, 20); // Velocidad de escritura, puedes ajustar este valor para cambiar la velocidad
 
         return () => clearInterval(typingEffect); // Limpia el intervalo cuando el componente se desmonta
     }, []);
